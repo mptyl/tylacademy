@@ -124,6 +124,10 @@ nav:
       - Coding Agents:
           - Overview: development-tools/coding-agents/index.md
           - Antigravity: development-tools/coding-agents/antigravity.md
+          - Gemini: development-tools/coding-agents/gemini.md
+            - Overview: development-tools/coding-agents/gemini/index.md
+            - Autenticazione: development-tools/coding-agents/gemini/auth.md 
+            - Quota e Pricing: development-tools/coding-agents/gemini/quotas_and_pricing.md
           - Gemini CLI: development-tools/coding-agents/gemini_cli.md
           - Claude Code: development-tools/coding-agents/claude-code.md
 
