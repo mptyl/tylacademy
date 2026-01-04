@@ -123,13 +123,18 @@ nav:
       - Skills: development-tools/skills.md
       - Coding Agents:
           - Overview: development-tools/coding-agents/index.md
-          - Antigravity: development-tools/coding-agents/antigravity.md
-          - Gemini:
+          - Antigravity: 
+            - Overview: development-tools/coding-agents/antigravity/index.md
+            - Autenticazione: development-tools/coding-agents/antigravity/auth.md
+            - Tutorials: development-tools/coding-agents/antigravity/tutorials.md
+          - Gemini CLI:
             - Overview: development-tools/coding-agents/gemini/index.md
             - Autenticazione: development-tools/coding-agents/gemini/auth.md 
             - Quota e Pricing: development-tools/coding-agents/gemini/quotas_and_pricing.md
-          - Gemini CLI: development-tools/coding-agents/gemini_cli.md
-          - Claude Code: development-tools/coding-agents/claude-code.md
+          - Claude Code:
+            - Overview: development-tools/coding-agents/claude-code/index.md
+          - Codex:
+            - Overview: development-tools/coding-agents/codex/index.md
 
 # Development server
 dev_addr: 127.0.0.1:8545
