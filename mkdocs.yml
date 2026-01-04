@@ -1,0 +1,130 @@
+site_name: Tyl Academy
+site_description: Documentation for Tyl Academy
+site_author: Tyl Academy
+site_url: https://tyl.academy
+
+# Repository
+repo_name: tyl-academy/docs
+repo_url: https://github.com/tyl-academy/docs
+edit_uri: ""
+copyright: Copyright &copy; 2026 Tyl Academy
+
+# Theme
+theme:
+  name: material
+  language: en
+  features:
+    - content.code.copy
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - search.share
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.ico
+
+# Plugins
+plugins:
+  - search:
+      lang: en
+  - minify:
+      minify_html: true
+
+# Customization
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/custom.js
+
+extra:
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+  social:
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/@tylacademy
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/tyl-academy
+  # version:
+  #   provider: mike
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.abbr
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.md_in_html
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: tyl-academy
+      repo: docs
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Navigation
+nav:
+  - Home: index.md
+  - Development Tools:
+      - Overview: development-tools/index.md
+      - Skills: development-tools/skills.md
+      - Coding Agents:
+          - Overview: development-tools/coding-agents/index.md
+          - Antigravity: development-tools/coding-agents/antigravity.md
+          - Claude Code: development-tools/coding-agents/claude-code.md
+
+# Development server
+dev_addr: 127.0.0.1:8545

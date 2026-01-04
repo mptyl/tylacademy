@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.env
+.venv*
+env/
+venv/
+ENV/
+
+# MkDocs
+site/
+
+# OS
+.DS_Store
+Thumbs.db
