@@ -138,5 +138,8 @@ nav:
   - Graph RAGs:
       - Overview: graph-rags/index.md
       - LightRAG: graph-rags/light_rag.md
+  - Authentication:
+      - Overview: authentication/index.md
+      - Microsoft Entra ID: authentication/microsoft_entra_id/index.md
 # Development server
 dev_addr: 0.0.0.0:8545
