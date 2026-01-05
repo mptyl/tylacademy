@@ -16,5 +16,5 @@ Coding agents can help with:
 
 Explore our documentation on specific coding agents:
 
-- [Antigravity](antigravity.md) - Advanced coding automation
-- [Claude Code](claude-code.md) - AI-powered development assistant
+- [Antigravity](antigravity/index.md) - Advanced coding automation
+- [Claude Code](claude_code/index.md) - AI-powered development assistant

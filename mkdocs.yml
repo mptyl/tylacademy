@@ -50,8 +50,8 @@ theme:
 plugins:
   - search:
       lang: en
-  - minify:
-      minify_html: true
+#  - minify:
+#      minify_html: true
 
 # Customization
 extra_css:
@@ -132,9 +132,11 @@ nav:
             - Autenticazione: development-tools/coding-agents/gemini/auth.md 
             - Quota e Pricing: development-tools/coding-agents/gemini/quotas_and_pricing.md
           - Claude Code:
-            - Overview: development-tools/coding-agents/claude-code/index.md
+            - Overview: development-tools/coding-agents/claude_code/index.md
           - Codex:
             - Overview: development-tools/coding-agents/codex/index.md
-
+  - Graph RAGs:
+      - Overview: graph-rags/index.md
+      - LightRAG: graph-rags/light_rag.md
 # Development server
-dev_addr: 127.0.0.1:8545
+dev_addr: 0.0.0.0:8545
