@@ -140,6 +140,7 @@ nav:
       - LightRAG: graph-rags/light_rag.md
   - Authentication:
       - Overview: authentication/index.md
-      - Microsoft Entra ID: authentication/microsoft_entra_id/index.md
-# Development server
+      - Microsoft Entra ID: 
+        - Overview: authentication/microsoft_entra_id/index.md
+        - Integrazione Athena con Entra ID: authentication/microsoft_entra_id/integrazione_athena_con_entra_id.md
 dev_addr: 0.0.0.0:8545
