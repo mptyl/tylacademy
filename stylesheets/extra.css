@@ -1,0 +1,6 @@
+/* Additional CSS customizations for the theme */
+
+/* Testo in grassetto sulla sezione attiva del menu laterale */
+.md-nav__item--active>.md-nav__link {
+  font-weight: 700;
+}
